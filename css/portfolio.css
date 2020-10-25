@@ -1,0 +1,113 @@
+:root {
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --adress-link: rgba(255, 255, 255, 0.6);
+  --white: #ffffff;
+  --dark-bg: #2f303a;
+  --light-bg: #e5e5e5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.web {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--title-color);
+}
+
+.logo-st-f {
+  color: var(--white);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+
+.link-header {
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.link-nav-menu {
+  color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.list-btn-filtr {
+  list-style-type: none;
+}
+
+.btn-filtr {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.btn-filtr:hover,
+.btn-filtr:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+.btn-filtr {
+  cursor: pointer;
+}
+
+.list-link-projects {
+  list-style-type: none;
+}
+
+.link-project {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.title-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.description-projects {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-text-color);
+}
+
+.address {
+  color: var(--white);
+}
+
+.footer {
+  background-color: var(--dark-bg);
+}

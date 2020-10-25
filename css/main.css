@@ -1,0 +1,141 @@
+:root {
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --adress-link: rgba(255, 255, 255, 0.6);
+  --white: #ffffff;
+  --dark-bg: #2f303a;
+  --light-bg: #e5e5e5;
+  --team-bg: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.web {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--title-color);
+}
+
+.logo-st-f {
+  color: var(--white);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+
+.link-header {
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.link-nav-menu {
+  color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+
+.section-hero {
+  background-color: var(--dark-bg);
+}
+
+.list-plus {
+  list-style-type: none;
+}
+
+.title-plus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.list-section-title {
+  list-style-type: none;
+}
+
+.team {
+  list-style-type: none;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-color);
+}
+
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.section-team {
+  background-color: var(--team-bg);
+}
+
+.address {
+  color: var(--white);
+}
+
+.footer {
+  background-color: var(--dark-bg);
+}
