@@ -231,6 +231,8 @@ body {
   list-style-type: none;
   padding-left: 0px;
   padding-bottom: 95px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .team .item {
