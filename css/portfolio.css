@@ -35,12 +35,16 @@ body {
 }
 
 .container-projects {
-  margin-top: 95px;
-  margin-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .image-block {
   display: block;
+}
+
+.border-header {
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
@@ -195,8 +199,7 @@ body {
 }
 
 .title-projects {
-  margin: 20px 24px 4px 24px;
-
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -205,16 +208,23 @@ body {
 }
 
 .description-projects {
-  margin: 0px 24px 20px 24px;
+  margin-top: 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-text-color);
 }
 
+.card-text {
+  padding: 20px 24px;
+}
+.container-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .link-logo-footer {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -226,7 +236,6 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
-  padding-bottom: 60px;
   list-style-type: none;
 }
 

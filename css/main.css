@@ -135,6 +135,11 @@ body {
   color: var(--white);
 }
 
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .btn {
   display: inline-block;
   width: 200px;
@@ -158,11 +163,11 @@ body {
 .section-hero {
   background-color: var(--dark-bg);
   text-align: center;
-  margin-bottom: 95px;
 }
 
 .container-plus {
-  margin-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .list-plus {
@@ -193,7 +198,6 @@ body {
 .section-title {
   margin-top: 0px;
   margin-bottom: 50px;
-  padding-top: 95px;
 
   font-weight: 700;
   font-size: 36px;
@@ -218,10 +222,16 @@ body {
   margin-right: 30px;
 }
 
+.container-title {
+  padding-bottom: 95px;
+}
+
 .container-team {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 95px;
+  padding-bottom: 95px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -230,7 +240,6 @@ body {
   display: flex;
   list-style-type: none;
   padding-left: 0px;
-  padding-bottom: 95px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -269,9 +278,13 @@ body {
   background-color: var(--team-bg);
 }
 
+.container-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .link-logo-footer {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -283,7 +296,6 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
-  padding-bottom: 60px;
   list-style-type: none;
 }
 
