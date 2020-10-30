@@ -135,11 +135,6 @@ body {
   color: var(--white);
 }
 
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 .btn {
   display: inline-block;
   width: 200px;
@@ -161,11 +156,13 @@ body {
 }
 
 .section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--dark-bg);
   text-align: center;
 }
 
-.container-plus {
+.section-plus {
   padding-top: 95px;
   padding-bottom: 95px;
 }
@@ -230,8 +227,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 95px;
-  padding-bottom: 95px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -275,12 +270,9 @@ body {
 }
 
 .section-team {
+  padding-top: 95px;
+  padding-bottom: 95px;
   background-color: var(--team-bg);
-}
-
-.container-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .link-logo-footer {
@@ -304,5 +296,7 @@ body {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--dark-bg);
 }
